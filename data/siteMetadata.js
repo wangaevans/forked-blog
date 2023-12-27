@@ -13,10 +13,10 @@ const siteMetadata = {
   mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'wangaevans84@gmail.com',
   github: 'https://github.com/wangaevans',
-  twitter: 'https://twitter.com/@evanator77',
+  twitter: 'https://twitter.com/evanator77',
   facebook: 'https://facebook.com/wangaevans',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/evans0wanga',
+  linkedin: 'https://www.linkedin.com/evans-wanga',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
