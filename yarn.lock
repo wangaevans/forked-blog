@@ -1595,6 +1595,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.22.11":
+  version: 7.23.6
+  resolution: "@babel/runtime@npm:7.23.6"
+  dependencies:
+    regenerator-runtime: ^0.14.0
+  checksum: 1a8eaf3d3a103ef5227b60ca7ab5c589118c36ca65ef2d64e65380b32a98a3f3b5b3ef96660fa0471b079a18b619a8317f3e7f03ab2b930c45282a8b69ed9a16
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.22.15":
   version: 7.22.15
   resolution: "@babel/template@npm:7.22.15"
@@ -9487,7 +9496,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0":
+"react-dom@npm:18.2.0, react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -9506,6 +9515,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-social-icons@npm:^6.7.0":
+  version: 6.7.0
+  resolution: "react-social-icons@npm:6.7.0"
+  dependencies:
+    "@babel/runtime": ^7.22.11
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  peerDependencies:
+    react: 15.x.x || 16.x.x || 17.x.x || 18.x.x
+    react-dom: 15.x.x || 16.x.x || 17.x.x || 18.x.x
+  checksum: 61a6716e683329bc63820d6ce656f7c02ed5d06d767d7cfa7f0504d3c46bf9ec965db0fcdd0aab49b7b336838fe3ce02ed77ad948c6faa5e9da8b39a204791d0
+  languageName: node
+  linkType: hard
+
+"react-timeago@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "react-timeago@npm:7.2.0"
+  peerDependencies:
+    react: ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 1d6b4df11e7c2964f3a89ac8f9f2bc486afd3491c284f24d53c1497b0361e4b4e224facccd2dea6515ab264ddce99dd47a801f191a562110462f84aacbcb4c7e
+  languageName: node
+  linkType: hard
+
 "react-virtual@npm:^2.8.2":
   version: 2.10.4
   resolution: "react-virtual@npm:2.10.4"
@@ -9517,7 +9549,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0":
+"react@npm:18.2.0, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -10971,6 +11003,8 @@ __metadata:
     prettier-plugin-tailwindcss: ^0.4.1
     react: 18.2.0
     react-dom: 18.2.0
+    react-social-icons: ^6.7.0
+    react-timeago: ^7.2.0
     reading-time: 1.5.0
     rehype-autolink-headings: ^6.1.0
     rehype-citation: ^1.0.2

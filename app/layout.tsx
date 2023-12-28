@@ -1,7 +1,7 @@
 import 'css/tailwind.css'
 import 'pliny/search/algolia.css'
 
-import { Space_Grotesk, Ubuntu } from 'next/font/google'
+import { Lato, Space_Grotesk, Ubuntu } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider, SearchConfig } from 'pliny/search'
 import Header from '@/components/Header'
@@ -11,8 +11,8 @@ import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
 
-const seleted_font = Ubuntu({
-  weight: ['300', '500', '700'],
+const seleted_font = Lato({
+  weight: ['100', '300', '400', '700', '900'],
   subsets: ['latin'],
   display: 'swap',
   variable: '--font-space-grotesk',
