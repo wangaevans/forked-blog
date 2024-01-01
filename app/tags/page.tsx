@@ -28,11 +28,12 @@ export default async function Page() {
                             <div
                                 key={t}
                                 className='mb-2 mr-5 mt-2'>
-                                <div className={`bg-gray-300/70 dark:bg-gray-700 py-2 px-5 rounded-lg text-lg`}>
+                                <div
+                                    className={`py-1 px-2 rounded text-lg`}>
                                     <Tag text={t} />
                                     <Link
                                         href={`/tags/${slug(t)}`}
-                                        className='-ml-2 text-base font-semibold uppercase text-blue-600 dark:text-blue-500'
+                                        className='-ml-2  font-semibold uppercase text-blue-100'
                                         aria-label={`View posts tagged ${t}`}>
                                         {` (${tagCounts[t]})`}
                                     </Link>
