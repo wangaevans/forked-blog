@@ -3,7 +3,6 @@ import Tag from "@/components/Tag";
 import { slug } from "github-slugger";
 import tagData from "app/tag-data.json";
 import { genPageMetadata } from "app/seo";
-import * as randomColor from "randomcolor"
 
 export const metadata = genPageMetadata({
     title: "Tags",
